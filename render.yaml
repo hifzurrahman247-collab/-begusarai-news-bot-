@@ -4,7 +4,8 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: python begusarai_news_bot.py
+    startCommand: python begususarai_news_bot.py
     envVars:
       - key: TELEGRAM_BOT_TOKEN
         value: 7629889769:AAFhX9vAW854g7ClkFSb1arJb4KD9cOQbj0
+        
