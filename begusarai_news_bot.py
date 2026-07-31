@@ -308,18 +308,8 @@ if __name__ == "__main__":
     main()
 '''
 
-# Updated requirements for Python 3.14 compatibility
-requirements = '''python-telegram-bot>=21.0
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-'''
-
 with open('/mnt/agents/output/begusarai_news_bot.py', 'w', encoding='utf-8') as f:
     f.write(updated_code)
 
-with open('/mnt/agents/output/requirements.txt', 'w') as f:
-    f.write(requirements)
-
-print("✅ Updated files saved!")
-print("\n📄 requirements.txt:")
-print(requirements)
+print("✅ Code saved!")
+print(f"📄 Length: {len(updated_code)} characters")
